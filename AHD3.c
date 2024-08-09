@@ -48,7 +48,6 @@ int main() {
 
         printf("Seleccione una opcion: ");
         scanf("%d", &OpcionSeleccionada);
-        getchar(); // Para capturar el salto de línea dejado por scanf
 
         switch (OpcionSeleccionada) {
             case 1:
