@@ -19,7 +19,7 @@ void guardarBin() {
     }
 
     fwrite(pedirTexto, sizeof(char), strlen(pedirTexto), miPuntero);
-    printf("La cadena de pedirTexto se escribio exitosamente en formato binario\n");
+    printf("Archivo .bin guardado exitosamente\n");
     fclose(miPuntero);
 }
 
@@ -32,7 +32,7 @@ void guardarTxt() {
     }
 
     fprintf(archivo_1, "%s", pedirTexto);
-    printf("pedirTexto escrito en el archivo .txt exitosamente\n");
+    printf("Archivo .txt guardado exitosamente\n");
     fclose(archivo_1);
 }
 
